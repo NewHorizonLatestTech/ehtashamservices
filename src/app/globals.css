@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#panagrid{
+    height: 800px;
+}
+
+
+.footer-model-9 .social_icons_bg ul li a {
+    color: #ffffff;
+}
+
+.footer-model-9 .social_icons_bg ul li a:hover {
+    color: #c00a27;
+}
+
+.footer-model-9 .site-footer__links li a:hover,
+.footer-model-9 .mail-address:hover,
+.footer-model-9 .link a:hover {
+    color: #c00a27 !important;
+}
+
+.footer-model-9 .footer-bottom .footer-bottom__menu ul li a:hover {
+    color: red;
+}
+
+.footer-model-9 .copyright a {
+    color: #ffffff;
+}
+
+.footer-model-9 .copyright a:hover {
+    color: #ffffff;
+}
+
+.footer-model-9 h5 {
+    color: #ffffff;
+}
+
+.footer-model-9 .site-footer .grid-uniform {
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.site-footer {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/footer_1.jpg?v=1636108887");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-model-9 .site-footer:before {
+    content: "";
+    position: absolute;
+    background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/divider_1_1920X_1920X_ea5ea157-6ea7-4862-8b4a-5024ff6a8e4e_1920X.png?v=1636109889");
+    background-repeat: no-repeat;
+    left: 0;
+    width: 1920px;
+    height: 160px;
+    top: -120px;
+    bottom: auto;
+}
+
+.newsletter-block-type-3 form input[type="email"] {
+    background: #e4e4e4;
+    color: #000000;
+    border-radius: 5%;
+}
+.newsletter-block-type-3 {
+    background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/footer_1_1920X.png?v=1637137568");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 400px;
+    bottom: 0;
+}
+.newsletter-block-type-3 form input[type="email"]:focus {
+    border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+    background-color: rgba(228, 228, 228, 0.5);
+    border-radius: 15%;
+}
+
+.newsletter-block-type-3 form input[type="email"]::-webkit-input-placeholder {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.newsletter-block-type-3 form input[type="email"]:-moz-placeholder {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.newsletter-block-type-3 form input[type="email"]::-moz-placeholder {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.newsletter-block-type-3 form input[type="email"]:-ms-input-placeholder {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.newsletter-block-type-3 form input[type="email"] {
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.go{
+	width: 55px;
+	height:55px;
+	position: fixed;
+	z-index: 1000;
+	margin-right: 30px;
+	right: 0;
+	bottom: 0;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.go:hover{
+	box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.34),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    zoom: 110%;
+}
+
+/* <!-- second slider -->  */
+.carousel {
+    padding: 0.3em 0.3em 0;
+    background: rgb(240, 240, 240);
+    text-align: center;
+    position: relative;
+    margin-bottom: 0.3em;
+    padding-top: 56.25%;
+}
+
+.carousel iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.carousel span {
+    display: inline-block;
+    word-spacing: 1em; 
+
+    
+    overflow: auto;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.carousel a {
+    position: relative;
+    display: inline-block;
+    max-width: 120px;
+    width: 25%; 
+    border: 1px solid blue; 
+    opacity: 0.7;
+    text-decoration: none;
+}
+.carousel a:visited,
+.carousel a:nth-of-type(1) {
+    border-color: #555; 
+}
+.carousel a:hover {
+    opacity: 1;
+}
+.carousel a:not(:active):focus {
+    pointer-events: none;
+}
+.carousel a::before {
+    content: "";
+    position: absolute;
+    top: 0em;
+    right: 0em;
+    bottom: 0em;
+    left: 0em;
+    background: rgba(0, 0, 1, 0.1);
+    transition: background 0s 9999999s;
+}
+.carousel a:nth-of-type(1)::before {
+    background: rgba(255, 255, 254, 0.7);
+}
+.carousel span:active a::before {
+    background: rgba(0, 0, 0, 0);
+    transition: background 0s;
+}
+.carousel span:active a:active::before {
+    background: rgba(255, 255, 255, 0.7);
+    transition: background 0s;
+}
+.carousel img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+@keyframes slideIn {
+    from {
+        filter: blur(15px);
+    }
+    to {
+        filter: blur(0);
+    }
+}
+@keyframes slideOut {
+    from {
+        filter: blur(0);
+    }
+    to {
+        filter: blur(15px);
+    }
+}
